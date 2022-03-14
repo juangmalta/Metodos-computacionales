@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "limits": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "fstream": "cpp",
+        "xstring": "cpp"
     }
 }

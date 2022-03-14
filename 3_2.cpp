@@ -1,41 +1,58 @@
 #include <iostream>
 #include <string>
-#define max 100
+#include <fstream>
+#define max 10
 
 using namespace std;
 
-string entrada[max];
+string strings[max];
 
-int leng(string inp)
+void lexerAritmetico(string archivo)
 {
-    int largo = 0;
-    for (int i = 0; inp[i] != '\0'; i++)
+    string line;
+    int i=0;
+    ifstream inputs(archivo);
+    if (inputs.is_open())
     {
-        largo++;
+        while (getline(inputs, line))
+        {
+            strings[i]=line;
+            i++;
+        }
+        inputs.close();
     }
-    return largo;
+
+    else
+        cout << "Unable to open file";
 }
 
-void split(string inp, char separador)
+void printArray(string array1[])
 {
-    
+    for (int i = 0; i < max; i++)
+    {
+        cout << array1[i] << endl;
+    }
 }
+
+
 
 int main()
 {
-
-    // string entrada;
-    // cin >> entrada;
-    // string enteros,
-    //     flotantes,
-    //     asignacion = "=",
-    //     suma = "+",
-    //     resta = "-",
-    //     multiplicacion = "*",
-    //     division = "/",
-    //     potencia = "^",
-    //     variables,
-    //     p1 = "(",
-    //     p2 = ")",
-    //     comentarios = "//";
+    lexerAritmetico("inputs.txt");
+    printArray(strings);
+    return 0;
 }
+// string entrada;
+// cin >> entrada;
+// string enteros,
+//     flotantes,
+//     asignacion = "=",
+//     suma = "+",
+//     resta = "-",
+//     multiplicacion = "*",
+//     division = "/",
+//     potencia = "^",
+//     variables,
+//     p1 = "(",
+//     p2 = ")",
+//     comentarios = "//";
