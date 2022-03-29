@@ -3,6 +3,10 @@
         "limits": "cpp",
         "utility": "cpp",
         "fstream": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "initializer_list": "c",
+        "type_traits": "c",
+        "vector": "c",
+        "xutility": "c"
     }
 }
