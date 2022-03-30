@@ -13,3 +13,4 @@
 #define negacionp 13
 #define suma1 14
 #define varsum1 15
+#define compar 16

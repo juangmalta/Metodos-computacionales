@@ -1,9 +1,9 @@
-// Lenguajes a usar: C++, python y matlab
+// Lenguajes a usar: C++, python y SQL
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "definiciones.h"
-
+// Para aprender a usar Flex se investigo y tomo como referencia este video https://www.youtube.com/watch?v=AyB7gVNor9U&ab_channel=EducacionOnLine
 extern int yylex();
 extern int yylineno;
 extern char *yytext;
@@ -17,7 +17,7 @@ int main()
     yyout = fopen("results.html", "w+");
     fprintf(yyout, "<!DOCTYPE HTML> \n");
     fprintf(yyout, "<html> \n");
-    fprintf(yyout, "\t<body style=\"background-color:#white; color:black\"> \n");
+    fprintf(yyout, "\t<body> \n");
     fprintf(yyout, "\t\t<pre style=\"font-family:Source Code Pro Medium\"> \n");
 
     fprintf(yyout, "\t\t</pre> \n");
