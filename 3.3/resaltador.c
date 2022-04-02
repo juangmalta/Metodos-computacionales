@@ -108,6 +108,16 @@ int main()
             printf("%s is %s\n", defs[token], yytext);
             fprintf(yyout, "%s%s%s", "<p style =' color:#BD4E0F'>", yytext, "</p>");
         }
+          else if (token == compar)
+        {
+            printf("%s is %s\n", defs[token], yytext);
+            fprintf(yyout, "%s%s%s", "<p style =' color:#green'>", yytext, "</p>");
+        }
+          else if (token == andp)
+        {
+            printf("%s is %s\n", defs[token], yytext);
+            fprintf(yyout, "%s%s%s", "<p style =' color:#cian'>", yytext, "</p>");
+        }
 
         token = yylex();
     }

@@ -1,19 +1,2 @@
-A01639025
-//este es un codigo que permite la lectura de distintas expresiones regulares.
---Al recibir un texto, lo analiza y crea un .html 
-+ en este html muestra las expresiones resaltadas
-
-Lorem ipsum dolor sit amet, 
-#consectetur 
-//adipiscing elit. Aliquam non turpis diam. Vestibulum eros erat, tincidunt ac luctus ac, placerat vitae magna. Quisque id nunc sit amet nunc aliquam interdum. Donec eleifend luctus tellus vel semper. Vestibulum congue laoreet ipsum malesuada aliquam. Vestibulum auctor aliquam nibh, ut interdum sapien dictum in. Curabitur ut auctor neque. Mauris at tellus non lorem euismod vehicula a vel velit. Nunc tortor sem, ultricies a porta dictum, volutpat at mi. Quisque iaculis, orci vitae consectetur ultricies, tortor elit tristique nisi, non congue leo nisl et sapien. Fusce eu sapien justo.
-
-++
---In auctor massa magna, sit a
-
-+met cursus sem imperdiet id. Nunc et pharetra tortor, quis aliquam ligula. Sed vehicula leo lacus, rutrum eleifend justo finibus vel. Duis sagittis nisi a est dictum varius. Donec sollicitudin, lacus a egestas fermentum, metus odio finibus ante, eu auctor massa massa vitae mi. Donec vitae neque sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce lacus lacus, mattis ac erat quis, accumsan sagittis nibh.
-
--Vestibulum != et aliquam|| massa. Aliquam ultrices massa odio, eget vestibulum est placerat quis. In nec augue convallis, tempus lectus at, tincidunt magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tincidunt augue enim, eget pellentesque orci euismod non. Nullam auctor facilisis ipsum, nec varius arcu maximus in. Vestibulum tincidunt ante sed dui gravida, sed pretium neque consectetur.
-
-!=Nunc laoreet, neque id cursus sollicitudin, tellus ex egestas dui, id semper ex massa iaculis felis. In ut sagittis nulla, eu porttitor dolor. Integer scelerisque nec nunc eget sodales. Vestibulum at quam scelerisque, tempus elit at, mollis est. Nam sed interdum metus. Suspendisse posuere faucibus dignissim. Sed euismod libero nec felis finibus, a aliquet quam scelerisque. Pellentesque ultrices congue nibh. Phasellus at eros vitae quam pretium auctor quis rhoncus risus. Quisque lorem lorem, lacinia in dui vitae, facilisis consequat ipsum. Nulla elementum nibh id rhoncus ultrices. Pellentesque vel metus ac nisi aliquet suscipit eu at dolor. Nam vulputate ante laoreet molestie facilisis. Maecenas ut enim ipsum. Nunc dignissim nibh vitae consectetur convallis.
-
-Aliquam tincidunt blandit ligula non blandit. Maecenas fermentum posuere ex ac sagittis. Suspendisse congue quam eget dui gravida, eu sagittis orci tincidunt. Maecenas consectetur accumsan ipsum eget eleifend. Suspendisse vehicula, lectus quis rhoncus venenatis, tellus orci pellentesque ligula, in porttitor libero felis a metus. Praesent ac faucibus libero, eget luctus lectus. Maecenas tristique nibh in elit mattis consectetur. Morbi imperdiet justo libero, quis cursus eros ullamcorper a. In hac habitasse platea dictumst.
+la talvera no es de puebla es de tlaxcala
+#no tengo idea

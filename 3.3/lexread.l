@@ -22,6 +22,7 @@
 "++"      return suma1;
 "+="      return varsum1;
 "=="      return compar;
+"&&"      return andp;
 %%
 
 int yywrap(void){
