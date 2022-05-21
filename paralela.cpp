@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrono>
 
 using namespace std;
 
@@ -11,6 +12,7 @@ bool isprimo(int n){
 }
 
 int main(){
+    auto start = chrono::steady_clock::now(); 
     int sum=0;
     for (int i = 0; i < 5000000; i++)
     {
@@ -22,6 +24,9 @@ int main(){
         
     }
     cout<<"sum is "<<sum<<endl;
-
+    auto end = chrono::steady_clock::now();
+        cout << "Elapsed time in seconds: "
+        << chrono::duration_cast<chrono::seconds>(end - start).count()
+        << " sec";
     return 0;
 }
